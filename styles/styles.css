@@ -2,15 +2,22 @@
 
 body {
   background-color: darkgrey;
-  /* text-align: center; */
-  margin: 8rem;
+}
+
+form {
+  width: 30rem;
+  margin: 3rem auto;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 6px;
 }
 
 input {
-  width: 20rem;
+  width: 100%;
   background-color: lightcyan;
   display: block;
-  margin: 1rem 0;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
 }
 
 button {
