@@ -1,0 +1,12 @@
+/* CSS Comments Format */
+
+body {
+  background-color: darkgrey;
+  /* text-align: center; */
+  margin: 8rem;
+}
+
+input {
+  width: 20rem;
+  background-color: lightcyan;
+}
