@@ -26,6 +26,35 @@
       <input type="password" name="user-password" id="userpassword" />
       <label for="userbirthday">Enter Your Birthday:</label>
       <input type="date" name="user-birthday" id="userbirthday" />
+      <hr />
+      <h2>How should we verify your account?</h2>
+      <div class="verify-buttons">
+        <input
+          type="radio"
+          name="verify-method"
+          id="verify-text-message"
+          value="text-message"
+        />
+        <label for="verify-text-message">Via text message (SMS):</label>
+      </div>
+      <div class="verify-buttons">
+        <input
+          type="radio"
+          name="verify-method"
+          id="verify-phone"
+          value="phone"
+        />
+        <label for="verify-phone">Via a phone call:</label>
+      </div>
+      <div class="verify-buttons">
+        <input
+          type="radio"
+          name="verify-method"
+          id="verify-email"
+          value="email"
+        />
+        <label for="verify-email">Via an email:</label>
+      </div>
 
       <button>Submit</button>
     </form>
