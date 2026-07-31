@@ -18,6 +18,10 @@
     <form action="/" method="GET">
       <label for="username">Enter Your Name:</label>
       <input type="text" name="user-name" id="username" />
+
+      <label for="usermessage">Your Message:</label>
+      <textarea id="usermessage" name="user-message"></textarea>
+
       <label for="useremail">Enter Your email:</label>
       <input type="email" name="user-email" id="useremail" />
       <label for="userage">Enter Your Age:</label>
@@ -27,6 +31,14 @@
       <label for="userbirthday">Enter Your Birthday:</label>
       <input type="date" name="user-birthday" id="userbirthday" />
       <hr />
+      <label for="favouritecolor">Your Favourite Colour:</label>
+      <select id="favouritecolor" name="favourite-color">
+        <option value="red">Red</option>
+        <option>Orange</option>
+        <option>Yellow</option>
+        <option>Green</option>
+      </select>
+
       <h2>How should we verify your account?</h2>
       <div class="form-control-buttons">
         <input
