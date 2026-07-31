@@ -53,11 +53,11 @@ button:hover {
   border-color: rgb(52, 14, 95);
 }
 
-.verify-buttons {
+.form-control-buttons {
   display: flex;
 }
 
-.verify-buttons input {
+.form-control-buttons input {
   width: auto;
   margin-right: 0.75rem;
 }

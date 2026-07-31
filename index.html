@@ -28,7 +28,7 @@
       <input type="date" name="user-birthday" id="userbirthday" />
       <hr />
       <h2>How should we verify your account?</h2>
-      <div class="verify-buttons">
+      <div class="form-control-buttons">
         <input
           type="radio"
           name="verify-method"
@@ -37,7 +37,7 @@
         />
         <label for="verify-text-message">Via text message (SMS):</label>
       </div>
-      <div class="verify-buttons">
+      <div class="form-control-buttons">
         <input
           type="radio"
           name="verify-method"
@@ -46,7 +46,7 @@
         />
         <label for="verify-phone">Via a phone call:</label>
       </div>
-      <div class="verify-buttons">
+      <div class="form-control-buttons">
         <input
           type="radio"
           name="verify-method"
@@ -55,7 +55,34 @@
         />
         <label for="verify-email">Via an email:</label>
       </div>
+      <div class="form-control-buttons">
+        <input type="checkbox" name="terms" id="agree-terms" />
+        <label for="agree-terms">Agree to terms?</label>
+      </div>
 
+      <hr />
+      <div class="form-control-buttons">
+        <input
+          type="checkbox"
+          name="contact"
+          id="contact-email"
+          value="email"
+        />
+        <label for="contact-email">Contact me via email</label>
+      </div>
+      <div class="form-control-buttons">
+        <input type="checkbox" name="contact" id="contact-text" value="text" />
+        <label for="contact-text">Contact me via text</label>
+      </div>
+      <div class="form-control-buttons">
+        <input
+          type="checkbox"
+          name="contact"
+          id="contact-phone"
+          value="phone"
+        />
+        <label for="contact-phone">Contact me via phone</label>
+      </div>
       <button>Submit</button>
     </form>
     <script src="./app.js"></script>
